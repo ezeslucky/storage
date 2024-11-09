@@ -37,6 +37,7 @@ const authFormSchema = (formType: FormType) => {
 const AuthForm = ({ type }: { type: FormType }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+ 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [accountId, setAccountId] = useState(null);
 
